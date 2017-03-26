@@ -1,0 +1,6 @@
+cd /root/demo_deploy_war
+git pull xxx master
+
+
+crontab -e
+* * * * * sh /root/run.sh >> /root/log.txt
